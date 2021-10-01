@@ -5,7 +5,7 @@
   "engines": {
       "node": "14.16.1"
   }
- "scripts": {
+  "scripts": {
     "dev": "node ace serve --watch",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
@@ -14,10 +14,6 @@
     "start": "node ace serve --watch",
     "start:prod": "node ./build/server.js"
   },
-    "build": "node ace build --prod",
-    "start": "node ace serve --watch",
-    "start:prod": "node ./build/server.js"
-  }
   "devDependencies": {
     "@adonisjs/assembler": "^5.3.7",
     "adonis-preset-ts": "^2.1.0",
