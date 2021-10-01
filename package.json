@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": "14.17.5"
-  },
-  "scripts": {
-    "dev": "node ace serve --watch",
-    "lint": "eslint . --ext=.ts",
-    "format": "prettier --write .",
-    "build": "node ace build --prod --ignore-ts-errors",
-    "postbuild": "cp -a docs/ build/docs",
+      "node": "14.16.1"
+  }
+ "scripts": {
+    "build": "node ace build --prod",
     "start": "node ace serve --watch",
     "start:prod": "node ./build/server.js"
-  },
+  }
   "devDependencies": {
     "@adonisjs/assembler": "^5.3.7",
     "adonis-preset-ts": "^2.1.0",
